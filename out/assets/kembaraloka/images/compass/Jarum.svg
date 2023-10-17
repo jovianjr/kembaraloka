@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="1236.67 1343.67 76.67 612.67">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#204A87;stroke-width:4.66654;stroke-linecap:round;stroke-linejoin:round}
+    .str0 {stroke:#A40000;stroke-width:4.66654;stroke-linecap:round;stroke-linejoin:round}
+    .fil3 {fill:#344383}
+    .fil1 {fill:#4254A6}
+    .fil2 {fill:#A41330}
+    .fil0 {fill:#D1193D}
+    .fil6 {fill:url(#id0)}
+    .fil5 {fill:url(#id1)}
+    .fil4 {fill:url(#id2)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1274.92" y1="1649.93" x2="1274.92" y2="1649.93">
+   <stop offset="0" style="stop-opacity:1; stop-color:#888A85"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#D3D7CF"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="1108.25" y1="1501.87" x2="1120.61" y2="1517.4">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="1261.78" y1="1635.35" x2="1295.37" y2="1670.36">
+   <stop offset="0" style="stop-opacity:1; stop-color:#EEEEEC"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:#D3D7CF"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1839907521152">
+   <path class="fil0 str0" d="M1275 1346l-19 273c-10,7 -17,18 -17,31l72 0c0,-13 -7,-24 -18,-31l-18 -273 0 0z"/>
+   <path class="fil1 str1" d="M1275 1954l-18 -273c-11,-7 -18,-18 -18,-31l72 0c0,13 -7,24 -18,31l-18 273 0 0z"/>
+   <path class="fil2" d="M1275 1347l0 303 36 0c0,-13 -7,-24 -18,-31l-18 -272 0 0z"/>
+   <path class="fil3" d="M1275 1650l0 304 18 -273c11,-7 18,-18 18,-31l-36 0 0 0z"/>
+   <path class="fil4" d="M1275 1626c-13,0 -24,11 -24,24 0,13 11,24 24,24 13,0 24,-11 24,-24 0,-13 -11,-24 -24,-24zm0 4c11,0 20,9 20,20 0,11 -9,20 -20,20 -11,0 -20,-9 -20,-20 0,-11 9,-20 20,-20z"/>
+   <path class="fil5" d="M1295 1650c0,-11 -9,-20 -20,-20 -11,0 -20,9 -20,20 0,11 9,20 20,20 11,0 20,-9 20,-20z"/>
+   <path class="fil6" d="M1289 1641c0,1 0,2 -1,2l-12 8 -13 8c0,0 -1,0 -2,0 0,-1 0,-2 1,-2l12 -9 13 -7c0,0 1,0 2,0z"/>
+  </g>
+ </g>
+</svg>
