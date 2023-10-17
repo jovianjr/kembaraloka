@@ -1,0 +1,317 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-Thin.ttf')
+			format('truetype');
+		font-weight: 100;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-ThinItalic.ttf')
+			format('truetype');
+		font-weight: 100;
+		font-style: italic;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-ExtraLight.ttf')
+			format('truetype');
+		font-weight: 200;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-ExtraLightItalic.ttf')
+			format('truetype');
+		font-weight: 200;
+		font-style: italic;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-Light.ttf')
+			format('truetype');
+		font-weight: 300;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-LightItalic.ttf')
+			format('truetype');
+		font-weight: 300;
+		font-style: italic;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-Regular.ttf')
+			format('truetype');
+		font-weight: 400;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-RegularItalic.ttf')
+			format('truetype');
+		font-weight: 400;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-Medium.ttf')
+			format('truetype');
+		font-weight: 500;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-MediumItalic.ttf')
+			format('truetype');
+		font-weight: 500;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-SemiBold.ttf')
+			format('truetype');
+		font-weight: 600;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-SemiBoldItalic.ttf')
+			format('truetype');
+		font-weight: 600;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-Bold.ttf')
+			format('truetype');
+		font-weight: 700;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-BoldItalic.ttf')
+			format('truetype');
+		font-weight: 700;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-ExtraBold.ttf')
+			format('truetype');
+		font-weight: 800;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-ExtraBoldItalic.ttf')
+			format('truetype');
+		font-weight: 800;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-Black.ttf')
+			format('truetype');
+		font-weight: 900;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Metropolis';
+		src: url('../Assets/Fonts/Metropolis/Metropolis-BlackItalic.ttf')
+			format('truetype');
+		font-weight: 900;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'Gilligan Shutter';
+		src: url('../Assets/Fonts/GilliganShutter/GilliganShutter.ttf');
+	}
+
+	h1 {
+		@apply text-h1;
+	}
+	h2 {
+		@apply text-h2;
+	}
+	h3 {
+		@apply text-h3;
+	}
+	h4 {
+		@apply text-h4;
+	}
+	h5 {
+		@apply text-h5;
+	}
+	h6 {
+		@apply text-h6;
+	}
+}
+
+@layer components {
+	.glassmo {
+		@apply border-2 border-shades-0/10 bg-gradient-to-br from-shades-0/40 
+    to-shades-0/10 backdrop-blur-2xl shadow-2xl;
+	}
+
+	.vertical-carousel .swiper {
+		@apply h-[100vh] w-full flex flex-auto flex-col justify-center order-2 px-2;
+	}
+
+	.glassmo-2 {
+		@apply border-2 border-shades-0/10 bg-gradient-to-br from-shades-0/40 
+
+    to-shades-0/10 backdrop-blur-2xl shadow-md;
+	}
+
+	.glassmo-kembaraloka {
+		@apply border-2 border-shades-0/10 rounded-[36px] bg-gradient-to-br from-shades-0/40 
+		to-shades-0/10 backdrop-blur-[120px] shadow-md;
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	@apply p-0 m-0;
+}
+
+a {
+	@apply text-inherit no-underline;
+}
+
+* {
+	@apply box-border;
+}
+
+.dropdown-item:hover > ul {
+	@apply !visible;
+}
+
+.dropdown-item:hover > .dropdown-item-secondary > ul {
+	@apply !visible;
+}
+
+.dropdown-item-secondary:hover > a {
+	@apply bg-c-yellow-300;
+}
+
+/* Vertical Carousel */
+
+.vertical-carousel .swiper-slide {
+	/* To fix clipped shadow bug */
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: all 200ms linear;
+	transform: scale(0.9);
+	/* overflow: visible; */
+}
+
+.vertical-carousel .swiper-slide.swiper-slide-prev {
+	transform: scale(1) !important;
+}
+
+.horizontal-carousel .swiper-slide {
+	height: 100% !important;
+}
+
+.horizontal-carousel .swiper-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+	width: 14px;
+	border-radius: 10px;
+	background-color: #f5f5f5;
+	box-shadow: inset 0px 0px 7px -3px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-track {
+	margin-bottom: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #f06522;
+	box-shadow: 0px 0px 1px #2d3a74;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #f39668;
+	box-shadow: 0px 0px 1px #2d3a74;
+}
+
+::-webkit-scrollbar-thumb:active {
+	background-color: #d05011;
+	box-shadow: 0px 0px 1px #2d3a74;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+	background-image: url('../Assets/Images/Scrollbar/DecrementNormal.png');
+	background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+	background-image: url('../Assets/Images/Scrollbar/DecrementHover.png');
+	background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:active {
+	background-image: url('../Assets/Images/Scrollbar/DecrementActive.png');
+	background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+	background-image: url('../Assets/Images/Scrollbar/IncrementNormal.png');
+	background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment:hover {
+	background-image: url('../Assets/Images/Scrollbar/IncrementHover.png');
+	background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment:active {
+	background-image: url('../Assets/Images/Scrollbar/IncrementActive.png');
+	background-repeat: no-repeat;
+}
+
+
+.animate-fade {
+	animation: fade 6s cubic-bezier(0, 0, 0.2, 1);
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.75;
+	}
+
+	70% {
+		opacity: 0;
+	} 
+
+	100% {
+		opacity: 0;
+	}
+}
